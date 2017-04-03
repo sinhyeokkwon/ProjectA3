@@ -1,0 +1,25 @@
+﻿  TextSupport.cpp
+  SqlConnectorPool.cpp
+c:\users\ksh\desktop\server\grit\gritlibrary\queue.h(31): warning C4267: 'return': 'size_t'에서 'unsigned int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  c:\users\ksh\desktop\server\grit\gritlibrary\queue.h(29): note: 클래스 템플릿 멤버 함수 'unsigned int aria::CSafeDeque<aria::CSqlRequest *>::Size(void)'을(를) 컴파일하고 있습니다.
+  c:\users\ksh\desktop\server\grit\gritlibrary\sqlconnectorpool.cpp(35): note: 컴파일 중인 함수 템플릿 인스턴스화 'unsigned int aria::CSafeDeque<aria::CSqlRequest *>::Size(void)'에 대한 참조를 확인하십시오.
+  c:\users\ksh\desktop\server\grit\gritlibrary\sqlconnectorpool.h(61): note: 컴파일 중인 클래스 템플릿 인스턴스화 'aria::CSafeDeque<aria::CSqlRequest *>'에 대한 참조를 확인하십시오.
+  SqlConnector.cpp
+c:\users\ksh\desktop\server\grit\gritlibrary\sqlconnector.cpp(66): warning C4244: '인수': 'unsigned __int64'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\ksh\desktop\server\grit\gritlibrary\sqlconnector.cpp(159): warning C4244: '초기화 중': 'my_ulonglong'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  RingBuffer.cpp
+  NetworkRequestIntoJson.cpp
+c:\users\ksh\desktop\server\grit\gritlibrary\rapidjson\document.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+c:\users\ksh\desktop\server\grit\gritlibrary\networkrequestintojson.cpp(206): warning C4267: '초기화 중': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  Log.cpp
+c:\users\ksh\desktop\server\grit\gritlibrary\queue.h(31): warning C4267: 'return': 'size_t'에서 'unsigned int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  c:\users\ksh\desktop\server\grit\gritlibrary\queue.h(29): note: 클래스 템플릿 멤버 함수 'unsigned int aria::CSafeDeque<LogInfo *>::Size(void)'을(를) 컴파일하고 있습니다.
+  c:\users\ksh\desktop\server\grit\gritlibrary\log.cpp(27): note: 컴파일 중인 함수 템플릿 인스턴스화 'unsigned int aria::CSafeDeque<LogInfo *>::Size(void)'에 대한 참조를 확인하십시오.
+  c:\users\ksh\desktop\server\grit\gritlibrary\log.h(61): note: 컴파일 중인 클래스 템플릿 인스턴스화 'aria::CSafeDeque<LogInfo *>'에 대한 참조를 확인하십시오.
+  IOCPServer.cpp
+  Connection.cpp
+c:\users\ksh\desktop\server\grit\gritlibrary\connection.cpp(303): warning C4311: 'reinterpret_cast': 'aria::CConnection *const '에서 'DWORD'(으)로 포인터가 잘립니다.
+c:\users\ksh\desktop\server\grit\gritlibrary\connection.cpp(303): warning C4302: 'reinterpret_cast': 'aria::CConnection *const '에서 'DWORD'(으)로 잘립니다.
+c:\users\ksh\desktop\server\grit\gritlibrary\connection.cpp(328): warning C4244: '초기화 중': '__int64'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  코드를 생성하고 있습니다...
+  GritLibrary.vcxproj -> C:\Users\ksh\Desktop\Server\Grit\x64\Debug\GritLibrary.lib

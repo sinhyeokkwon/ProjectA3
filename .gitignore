@@ -1,4 +1,5 @@
 *.sln
-Debug
-GritLibrary/MariaDB
-GritLibrary/mysql
+*.pdb
+*.exe
+MariaDB
+mysql
